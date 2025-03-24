@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 400px;
+}
+
+button {
+    font-size: 30px;
+    margin: 30px;
+    background-color: #222;
+    color: #fff;
+}

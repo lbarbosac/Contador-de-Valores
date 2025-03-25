@@ -1,9 +1,48 @@
+body {
+    background-color: #000;
+    font-family: helvetica; 
+}
+
 .container {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#soma {
+    background-color: rgb(92, 1, 92);
+    color: #fff;
+    width: 10%;
+    height: 15%;
+}
+
+#soma:hover {
+    background-color: rgb(76, 1, 76);
+}
+
+#resultado {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
-    width: 400px;
+    background-color: #fff;
+    color: blueviolet;
+    width: 15%;
+    height: 15%;
+    margin: 0;
+}
+
+#diminuir {
+    background-color: rgb(159, 1, 159);
+    color: #fff;
+    width: 10%;
+    height: 15%;
+}
+
+#diminuir:hover {
+    background-color: rgb(127, 2, 127);
 }
 
 button {
@@ -11,4 +50,5 @@ button {
     margin: 30px;
     background-color: #222;
     color: #fff;
+    cursor: pointer;
 }

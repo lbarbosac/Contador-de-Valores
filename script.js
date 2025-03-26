@@ -11,9 +11,10 @@ somar.addEventListener("click", () => {
 
 menos.addEventListener("click", () => {
     let convert = parseInt (resultado.innerHTML, 10);
-    let menos = convert -1;
+    let diminuir = convert - 1;
     if(resultado.innerHTML == 0 ){
         resultado.innerHTML = 0;
+        alert("Erro! Você não pode diminuir o zero");
     }
     else{
         resultado.innerHTML = diminuir;
